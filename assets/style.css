@@ -12,6 +12,8 @@ body {
 
 
 
+
+
 /* general */
 
 .container {
@@ -51,6 +53,8 @@ h2,
 h3 {
     font-size: 22px;
 }
+
+
 
 
 
@@ -102,6 +106,8 @@ nav a:first-child {
 
 
 
+
+
 /* footer */
 
 footer {
@@ -114,6 +120,8 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
 }
+
+
 
 
 
@@ -150,6 +158,8 @@ h3,
 
 
 
+
+
 /* main */
 
 #main-container {
@@ -166,6 +176,8 @@ h3,
     background: #fff;
     border: 1px solid #ddd;
 }
+
+
 
 
 
@@ -213,6 +225,8 @@ h3,
 
 
 
+
+
 /* contact page */
 
 #contact-form ul {
@@ -224,7 +238,7 @@ h3,
 }
 
 #thisname {
-  float: left;
+    float: left;
 }
 
 
@@ -258,15 +272,18 @@ input[type=submit] {
     border: 0 none;
 }
 
-/*#main-container {
-    float: left;
 
-}*/
+
 
 @media screen and (max-width: 980px) {
-        #masthead {
-            text-align: center;
-        }
+    #masthead {
+        text-align: center;
+    }
+
+    .main-section {
+        max-width: 50%;
+        margin: 0 2%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -298,14 +315,13 @@ input[type=submit] {
     .main-section {
         max-width: 96%;
         margin: 0 2%;
-        
     }
 
     .sidebar {
-        max-width: 748px;
+        max-width: 768px;
         float: left;
         width: 96%;
-        margin: 2% 2% 2% 2%;
+        margin: 2% 2% 2%;
     }
 
     .auth-image {
@@ -316,7 +332,6 @@ input[type=submit] {
         width: 96%;
         height: auto;
     }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -365,9 +380,9 @@ input[type=submit] {
     .main-section {
         vertical-align: center;
     }
-
-
 }
+
+
 
 
 /*git pages
